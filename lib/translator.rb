@@ -23,4 +23,5 @@ end
 
 def get_english_meaning
   result = load_library(file_path)[:get_meaning][emoticon]
+  result
 end
